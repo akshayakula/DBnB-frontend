@@ -3,9 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <ul>
+      <li>
+        <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="listing-Photo" alt="logo" />
+        <h4>Listing Name</h4>
+        <h6>Listing Address</h6>
+        <h6>Listing Price</h6>
+      </li>
+    </ul>
   );
 }
 
